@@ -1,0 +1,368 @@
+{
+    "_default": {
+        "1": {
+            "id": 1,
+            "name": "Alice",
+            "type": "user"
+        },
+        "2": {
+            "id": 2,
+            "name": "Bob",
+            "privileges": [
+                "manage_users",
+                "edit_settings"
+            ],
+            "type": "admin"
+        },
+        "3": {
+            "id": 1,
+            "name": "Alice",
+            "type": "user"
+        },
+        "4": {
+            "id": 2,
+            "name": "Bob",
+            "privileges": [
+                "manage_users",
+                "edit_settings"
+            ],
+            "type": "admin"
+        },
+        "5": {
+            "id": 1,
+            "name": "Alice",
+            "type": "user"
+        },
+        "6": {
+            "id": 2,
+            "name": "Bob",
+            "privileges": [
+                "manage_users",
+                "edit_settings"
+            ],
+            "type": "admin"
+        },
+        "7": {
+            "id": 3,
+            "name": "Olek",
+            "type": "user"
+        },
+        "8": {
+            "id": 2,
+            "name": "Bob",
+            "privileges": [
+                "manage_users",
+                "edit_settings"
+            ],
+            "type": "admin"
+        },
+        "9": {
+            "id": 3,
+            "name": "Olek",
+            "type": "user"
+        },
+        "10": {
+            "id": 2,
+            "name": "Bob",
+            "privileges": [
+                "manage_users",
+                "edit_settings"
+            ],
+            "type": "admin"
+        },
+        "11": {
+            "id": 3,
+            "name": "Olek",
+            "type": "user"
+        },
+        "12": {
+            "id": 2,
+            "name": "Bob",
+            "privileges": [
+                "manage_users",
+                "edit_settings"
+            ],
+            "type": "admin"
+        },
+        "13": {
+            "id": 6,
+            "name": "User",
+            "type": "user"
+        },
+        "14": {
+            "id": 8,
+            "name": "Mister",
+            "privileges": [
+                "delete_system",
+                "kill terminal"
+            ],
+            "type": "admin"
+        },
+        "15": {
+            "id": 6,
+            "name": "User",
+            "type": "user"
+        },
+        "16": {
+            "id": 8,
+            "name": "Mister",
+            "privileges": [
+                "delete_system",
+                "kill terminal"
+            ],
+            "type": "admin"
+        },
+        "17": {
+            "id": 6,
+            "name": "User",
+            "type": "user"
+        },
+        "18": {
+            "id": 8,
+            "name": "Mister",
+            "privileges": [
+                "delete_system",
+                "kill terminal"
+            ],
+            "type": "admin"
+        },
+        "19": {
+            "id": 6,
+            "name": "User",
+            "type": "user"
+        },
+        "20": {
+            "id": 8,
+            "name": "Mister",
+            "privileges": [
+                "delete_system",
+                "kill terminal"
+            ],
+            "type": "admin"
+        },
+        "21": {
+            "id": 6,
+            "name": "User",
+            "type": "user"
+        },
+        "22": {
+            "id": 8,
+            "name": "Mister",
+            "privileges": [
+                "delete_system",
+                "kill terminal"
+            ],
+            "type": "admin"
+        },
+        "23": {
+            "id": 6,
+            "name": "User",
+            "type": "user"
+        },
+        "24": {
+            "id": 8,
+            "name": "Mister",
+            "privileges": [
+                "delete_system",
+                "kill terminal"
+            ],
+            "type": "admin"
+        },
+        "25": {
+            "id": 6,
+            "name": "User",
+            "type": "user"
+        },
+        "26": {
+            "id": 8,
+            "name": "Mister",
+            "privileges": [
+                "delete_system",
+                "kill terminal"
+            ],
+            "type": "admin"
+        },
+        "27": {
+            "id": 6,
+            "name": "User",
+            "type": "user"
+        },
+        "28": {
+            "id": 8,
+            "name": "Mister",
+            "privileges": [
+                "delete_system",
+                "kill terminal"
+            ],
+            "type": "admin"
+        },
+        "29": {
+            "id": 1,
+            "name": "Alice",
+            "type": "user"
+        },
+        "30": {
+            "id": 2,
+            "name": "Bob",
+            "privileges": [
+                "manage_users",
+                "edit_settings"
+            ],
+            "type": "admin"
+        },
+        "31": {
+            "id": 3,
+            "name": "Olek",
+            "type": "user"
+        },
+        "32": {
+            "id": 4,
+            "name": "Biden",
+            "privileges": [
+                "manage_policies",
+                "edit_records"
+            ],
+            "type": "admin"
+        },
+        "33": {
+            "id": 5,
+            "name": "Jane",
+            "type": "user"
+        },
+        "34": {
+            "id": 6,
+            "name": "John",
+            "type": "user"
+        },
+        "35": {
+            "id": 7,
+            "name": "Moriarty",
+            "privileges": [
+                "correct_rules",
+                "do_everything"
+            ],
+            "type": "admin"
+        },
+        "36": {
+            "id": 8,
+            "name": "Mister",
+            "privileges": [
+                "delete_system",
+                "kill_terminal"
+            ],
+            "type": "admin"
+        },
+        "37": {
+            "id": 1,
+            "name": "Alice",
+            "type": "user"
+        },
+        "38": {
+            "id": 2,
+            "name": "Bob",
+            "privileges": [
+                "manage_users",
+                "edit_settings"
+            ],
+            "type": "admin"
+        },
+        "39": {
+            "id": 3,
+            "name": "Olek",
+            "type": "user"
+        },
+        "40": {
+            "id": 4,
+            "name": "Biden",
+            "privileges": [
+                "manage_policies",
+                "edit_records"
+            ],
+            "type": "admin"
+        },
+        "41": {
+            "id": 5,
+            "name": "Jane",
+            "type": "user"
+        },
+        "42": {
+            "id": 6,
+            "name": "John",
+            "type": "user"
+        },
+        "43": {
+            "id": 7,
+            "name": "Moriarty",
+            "privileges": [
+                "correct_rules",
+                "do_everything"
+            ],
+            "type": "admin"
+        },
+        "44": {
+            "id": 8,
+            "name": "Mister",
+            "privileges": [
+                "delete_system",
+                "kill_terminal"
+            ],
+            "type": "admin"
+        },
+        "45": {
+            "id": 1,
+            "name": "Alice",
+            "type": "user"
+        },
+        "46": {
+            "id": 2,
+            "name": "Bob",
+            "privileges": [
+                "manage_users",
+                "edit_settings"
+            ],
+            "type": "admin"
+        },
+        "47": {
+            "id": 3,
+            "name": "Olek",
+            "type": "user"
+        },
+        "48": {
+            "id": 4,
+            "name": "Biden",
+            "privileges": [
+                "manage_policies",
+                "edit_records"
+            ],
+            "type": "admin"
+        },
+        "49": {
+            "id": 5,
+            "name": "Jane",
+            "type": "user"
+        },
+        "50": {
+            "id": 6,
+            "name": "John",
+            "type": "user"
+        },
+        "51": {
+            "id": 7,
+            "name": "Moriarty",
+            "privileges": [
+                "correct_rules",
+                "do_everything"
+            ],
+            "type": "admin"
+        },
+        "52": {
+            "id": 8,
+            "name": "Mister",
+            "privileges": [
+                "delete_system",
+                "kill_terminal"
+            ],
+            "type": "admin"
+        }
+    }
+}
