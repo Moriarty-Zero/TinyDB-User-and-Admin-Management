@@ -3,10 +3,9 @@ from tinydb import TinyDB, Query
 from pydantic import BaseModel, Field
 from typing import Union, Literal
 
-# Ініціалізація бази даних
+#Ініціалізація бази даних
 db = TinyDB('db.json')
 
-# Визначення моделей даних з використанням Pydantic
 class User(BaseModel):
     id: int
     name: str
@@ -18,16 +17,14 @@ class Admin(BaseModel):
     privileges: list
     type: Literal["admin"] = "admin"
 
-# Функція для додавання даних до бази
 def add_data(data: Union[User, Admin]):
     db.insert(data.dict())
 
-# Функція для пошуку персони за ідентифікатором
 def find_person_by_id(person_id: int):
     PersonQuery = Query()
     result = db.search(PersonQuery.id == person_id)
     if result:
-        return result[0]  # Повертаємо перший знайдений запис
+        return result[0] 
     return None
 
 def format_db():
@@ -37,7 +34,7 @@ def format_db():
         json.dump(data, f, ensure_ascii=False, indent=4)
         f.truncate()
 
-# Додавання даних до бази
+#Додавання даних до бази
 users_and_admins = [
     User(id=1, name="Alice"),
     Admin(id=2, name="Bob", privileges=["manage_users", "edit_settings"]),
@@ -52,10 +49,9 @@ users_and_admins = [
 for person in users_and_admins:
     add_data(person)
 
-# Форматування бази даних
 format_db()
 
-# Пошук персони за ідентифікатором
+#Пошук персони за ID
 person = find_person_by_id(5)
 print(person)
 person3 = find_person_by_id(3)
